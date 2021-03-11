@@ -1,19 +1,10 @@
-
-# %%
-2 + 3
-'2' + '3'
-# 2 + '3'
-# print(2 + '3')
-
-a = 2
-b = '3'
-
-print(type(a))
-print(type(b))
-
-print(a + int(b))
-print(str(a) + b)
-
-type(str(a))
-
-# print(2 + int('3.4'))
+pessoa = {'nome': 'Prof. Alberto', 'idade': 43, 'cursos': ['React', 'Python']}
+pessoa['idade'] = 44
+pessoa['cursos'].append('Angular')
+pessoa
+pessoa.pop('idade')
+pessoa
+pessoa.update({'idade': 40, 'Sexo': 'M'})
+pessoa
+pessoa['salario']=14000
+print(pessoa)
